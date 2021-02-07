@@ -1,0 +1,167 @@
+body {
+    font-family: 'Montserrat';
+    font-weight: none;
+    text-align: center;
+}
+.download-button {
+    margin: 3% 1%;
+}
+p{
+color: #8f8f8f;
+}
+/*sections*/
+#features {
+    padding: 7% 15%;
+    background-color:#fff;
+    position:relative;
+}
+#title {
+    text-align: left;
+}
+#press {
+    background-color: #ef8172;
+    padding: 3%;
+    text-align: center;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+}
+#cta{
+    background-color: #ff4c68;
+    padding:7% 15%;
+    
+}
+/*color sections*/
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+/*big headings*/
+.test-desc {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.5;
+}
+#bottom-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:#fff;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h3 {
+    font-family: "Montserrat";
+}
+#titdesc {
+    padding-bottom: 2.5rem;
+}
+/*text*/
+.ptext {
+    color: #8f8f8f;
+}
+.pr-h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.credit-img {
+    width:15%;
+}
+.icon {
+    color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+#img-title {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/*testimonials*/
+
+.card{
+text-align: center;
+}
+.carousel-item{
+padding: 7% 15%;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/*media query*/
+
+@media (max-width:1020px){
+    #img-title{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+/*bottom section*/
+
+#footer{
+    margin-top: 70px;
+    text-align: center;
+    padding:7% 15%;
+}
+.footer-a{
+    padding:10px;
+}
+#f-txt{
+    margin-top: 25px;
+}
